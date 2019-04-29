@@ -2066,7 +2066,8 @@ Menyen er  bygd opp slik:
                 } #List ut låste brukere
 
                 6 { # Aktiver / Deaktiver bruker/gruppe/OU
-                                    #Spørr først hva bruker ønsker å gjøre: Aktivere eller deaktivere noe?
+		
+		    #Spørr først hva bruker ønsker å gjøre: Aktivere eller deaktivere noe?
                     do {
                         Write-Host "`nHva ønsker du å gjøre:`n" -Fore Cyan
                         Write-Host "`t1. " -NoNewline; Write-Host "Aktiver"   -Fore Cyan
