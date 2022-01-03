@@ -17,8 +17,8 @@ function KobleTil {
     #Endrer variablene nedenfor slik at de passer til der jeg har lagret script.
     #Jeg bruker dropbox slik at jeg får tilgang til scriptene på ulike maskiner
     CD C:\Users\henrik\Dropbox
-    $PathPassord             = "C:\Users\Henrik\Dropbox\KryptertPassordServer.txt" #Serverpassord, endres av bruker
-    $PathActiveDirectoryMeny = "C:\Users\Henrik\Dropbox\Administrering-ActiveDirectory.ps1"
+    $PathPassord             = "C:\Users\User\Dropbox\KryptertPassordServer.txt" #Serverpassord, endres av bruker
+    $PathActiveDirectoryMeny = "C:\Users\User\Dropbox\Administrering-ActiveDirectory.ps1"
 
     function FeilMelding {
         # `n gjør at det blir mellomrom til linja over.
@@ -43,13 +43,10 @@ function KobleTil {
            # [string]$RemoteIPadresse = Read-Host -Prompt "`n`tServernavn/IP" #Server som skal kobles til
 
            #For å slippe å skrive inn IP-adressen hver gang
-           # $RemoteIPadresse = "192.168.0.37"
-           # RemoteIPadresse = "192.168.0.87"
              $RemoteIPadresse = "192.168.0.119"
            # $RemoteIPadresse = "192.168.0.129"
-           # $RemoteIPadresse = "192.168.0.149"
-           # $RemoteIPadresse = "10.20.208.156"    #brukernavn: henrijohns
-           # $RemoteIPadresse = "192.168.0.111"   #brukernavn: klient
+           # $RemoteIPadresse = "10.20.208.156"    #brukernavn: admin
+           # $RemoteIPadresse = "192.168.0.111"    #brukernavn: client
 
 
                 if ($RemoteIPadresse -eq "") {Write-Host "`nSkriv inn en IP-adresse" -Fore Red}
