@@ -5704,7 +5704,7 @@ table { margin-left:3em; }
                 Write-Host " $sti`n"
 				Write-Host "`t`tKort om scriptet`n" -Fore Cyan
                 
-                Write-Host " Dette scriptet er laget av studenten Henrik Johnsen i forbindelse med bacheloroppgave
+                Write-Host " Dette scriptet er laget av Am0rphousn i forbindelse med bacheloroppgave
  for vår 2017 på NTNU. Scriptet skal administrere Active Directory i den grad det lar
  seg gjøre innenfor en tidsramme på ca 500 timer +- 5%.`n
  I scriptet brukes tallene 1-9 for å navigere mellom menyene, og for å utføre funksjoner og kommanoder.
