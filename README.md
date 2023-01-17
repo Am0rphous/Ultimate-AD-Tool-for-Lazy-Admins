@@ -2,7 +2,12 @@
 
 These scripts simplifies managing Active Directory on Windows Server 2016.
 
-Note to myself:
+Overview of the main menu
+![1. main menu.png](images/1. main menu.png?raw=true)
+
+
+
+Note for later:
 - Sjekk om en AD feature er installert.
 - $srv=Get-WindowsFeature *ise*
 - $srv.Installed
